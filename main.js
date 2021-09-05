@@ -12,7 +12,7 @@ function check(){
 	var design = 0;
 	var manager = 0;
 	var programmer = 0;
-
+	var pie=5;
 
 if (question1 == "New") {
 		web++;
@@ -82,10 +82,10 @@ if (question5 == "Friend") {
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Веб", "Проджект", "Аналитик", "Дизайнер", "Разработчик"],
+        labels: ["Веб", "Проджект", "Аналитик", "Дизайнер", "Разработчик", "Хлебушек"],
         datasets: [{
             label: 'Твой результат',
-            data: [ web, manager, analysis, design, programmer ],
+            data: [ web, manager, analysis, design, programmer, pie],
             backgroundColor: [
                 'rgba(216, 27, 96, 0.6)',
                 'rgba(3, 169, 244, 0.6)',
