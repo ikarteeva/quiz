@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>для Даши</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+<script src = "main.js"></script>
+
+
+</head>
+
+
+<body>
+<h1>ggmfck,</h1>
+<h3>отвечай как хочешь, мне все равно лень допиливать сохранение ответов</h3>
+<h3>и да, пока только такая мини-версия-опросник</h3>
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">В магаз завезли новый клевый энергос, который стоит так же как твой любимый:</p>
+<input type = "radio" id = "mc" name = "question1" value = "New">Возьму новый<br>
+<input type = "radio" id = "mc" name = "question1" value = "Old">Возьму любимый<br>
+
+<p class = "questions">Ты увидела три вакансии. На одной платят очень много, но требуется стек (набор технологий) с которым ты никогда не работала. На другой платят средне и в принципе норм. На третьей платят мало, но работа прямо по душе. Что выберешь?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Money">Деньги<br>
+<input type = "radio" id = "mc" name = "question2" value = "Stabil">Равновесие<br>
+<input type = "radio" id = "mc" name = "question2" value = "Soul">Занятие по душе<br>
+
+<p class = "questions">Готова ли ты возиться с ошибками в работе на постоянной основе?</p>
+<input type = "radio" id = "mc" name = "question3" value = "Yep">Да<br>
+<input type = "radio" id = "mc" name = "question3" value = "No">А че можно не на постоянной? (прим. автора: можно)<br>
+
+<p class = "questions">На сколько по шкале от "нафиг людей" до "жить без них не смогу" ты оценишь требования к работе? (шкала бомбическая, зацени)</p>
+<input type = "radio" id = "mc" name = "question4" value = "Fu">Нафиг людей<br>
+<input type = "radio" id = "mc" name = "question4" value = "Norm">Норм работать в команде<br>
+<input type = "radio" id = "mc" name = "question4" value = "Kaif">Жить без них не могу<br>
+
+<p class = "questions">Какая задача для тебя проще?</p>
+<input type = "radio" id = "mc" name = "question5" value = "Friend">Сделать чо-нить красивенькое (эстетичное с:)<br>
+<input type = "radio" id = "mc" name = "question5" value = "Team">Объяснить одному человеку че от него надо другому<br>
+<input type = "radio" id = "mc" name = "question5" value = "Code">Решать данную кем-то задачу<br>
+<input type = "radio" id = "mc" name = "question5" value = "Work">Взглянуть на ситуацию под другим углом<br>
+<input type = "radio" id = "mc" name = "question5" value = "Game">Просчитать в шашках как будет ходить противник<br>
+
+<p class = "questions">батончик?</p>
+<input type = "radio" id = "mc" name = "question6" value = "pie">нет, хлебушек<br>
+
+<input id = "button" type = "button" value = "тык" onclick = "check();">
+
+
+</form>
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<canvas id="myChart" width="600" height="400"></canvas>
+</div>
+</html>
+
+</body>
