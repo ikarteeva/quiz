@@ -74,6 +74,10 @@ if (question5 == "Friend") {
 		programmer++;
 	};
 
+	if(web && programmer == 0 && design == 0 && analysis == 0 && manager == 0){
+		alert("ты чо нажала на кнопку не ответив?")
+	}
+	else {
 	document.getElementById("after_submit").style.visibility = "visible";
 
 	document.getElementById("number_correct").innerHTML = "Иии скинь мне это:";
@@ -125,6 +129,7 @@ var myChart = new Chart(ctx, {
             }]
         }
     }
+	}
 })
 
 	}
