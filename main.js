@@ -74,7 +74,7 @@ if (question5 == "Friend") {
 		programmer++;
 	};
 
-	if(web && programmer == 0 && design == 0 && analysis == 0 && manager == 0){
+	if(web == 0 && programmer == 0 && design == 0 && analysis == 0 && manager == 0){
 		alert("ты чо нажала на кнопку не ответив?");
 	}
 	else {
