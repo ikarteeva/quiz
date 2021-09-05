@@ -73,7 +73,7 @@ if (question5 == "Friend") {
 	else if(question5=="Work"){
 		programmer++;
 	};
-
+	alert("pew");
 	if(web && programmer == 0 && design == 0 && analysis == 0 && manager == 0){
 		alert("ты чо нажала на кнопку не ответив?");
 	}
