@@ -1,2 +1,1 @@
-# quiz
-quiz for @ggmfck
+# Quiz for ggmfck
